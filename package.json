@@ -1,0 +1,20 @@
+{
+  "name": "aartifact-12",
+  "version": "1.0.0",
+  "description": "Node.js tutorial server exposing GET /hello ('Hello world') and GET /good-evening ('Good evening') via Express, verified with a Jest + Supertest test suite.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "supertest": "^7.2.2"
+  },
+  "license": "ISC"
+}

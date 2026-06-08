@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Jest coverage output
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local env / OS files
+.env
+.DS_Store
